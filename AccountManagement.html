@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Management</title>
+    <link rel="stylesheet" href="assets/style1.css" />
+</head>
+
+<body>
+    <div class="content">
+        <nav>
+            <img id="logo" src="assets/images/logo.png">
+        </nav>
+        <div class="btn-grp">
+            <div class="bank-btn" id="deposit-btn" onclick="openModal()">
+                <p class="bank-text">Deposit</p>
+            </div>
+            <div class="bank-btn" id="withdraw-btn">
+                <p class="bank-text">Withdraw</p>
+            </div>
+            <div class="bank-btn" id="transfer-btn">
+                <p class="bank-text">Transfer</p>
+            </div>
+            <div class="bank-btn" id="add-btn">
+                <p class="bank-text">Add account</p>
+                <i class="fas fa-university fa-2x" alt="Home"></i>
+            </div>
+
+
+
+        </div>
+        <div class="acc-disp">
+            <table id="account-table">
+                <h4 style="margin: 10px 0;">Tripti ACCOUNTS</h1>
+                    <tbody>
+                        <tr>
+                            <th>Name</th>
+                            <th>Account Number</th>
+                            <th>Balance</th>
+                        </tr>
+                        <tr id="account-start">
+                            <td>Logic</td>
+                            <td>496721523489</td>
+                            <td>1292300</td>
+                        </tr>
+                    </tbody>
+
+
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

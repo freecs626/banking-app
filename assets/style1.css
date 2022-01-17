@@ -1,0 +1,119 @@
+* {
+    font-family: 'Montserrat';
+}
+
+nav #logo {
+    float: center;
+    height: 100px;
+    margin: 4px 0;
+    text-align: center;
+}
+
+a:link {
+    color: #8000b7;
+}
+
+.btn-grp {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
+    width: 800px;
+    height: 180px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bank-btn {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    width: 22%;
+    height: 30%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.bank-btn:hover {
+    color: white;
+    background-color: #093574;
+}
+
+.bank-text {
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border: 1px black solid;
+}
+
+th {
+    border: 1px black solid;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-align-left {
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 12px;
+}
+
+.modal-action-button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0a3e86;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-input {
+    width: 90%;
+}
